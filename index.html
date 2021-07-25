@@ -2,7 +2,18 @@
 <html>
     <head>
     <link rel="stylesheet" href="style.css">
-    <script>         
+        <script>         
+
+function updateRate() 
+    {   
+    var rateval = document.getElementById("rate").value;
+    document.getElementById("rate_val").innerText=rateval;
+    }    
+                </script>         
+
+    </head>
+    <body>
+            <script>         
         function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -15,17 +26,7 @@
         \<br\>in the year "+year+"\<br\>";
 }
         </script>
-        <script>         
 
-function updateRate() 
-    {   
-    var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
-    }    
-                </script>         
-
-    </head>
-    <body>
     <h1>Simple Interest Calculator</h1>
     <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
