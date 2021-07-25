@@ -2,24 +2,7 @@
 <html>
 
     <head>
-    <script> 
-        function compute()
-        {
-             var principal = document.getElementById("principal").value;
-             var rate = document.getElementById("rate").value;
-             var years = document.getElementById("years").value;
-             var interest = principal * years * rate /100;
-             var year = new Date().getFullYear()+parseInt(years);
-             document.getElementById("result").innerHTML="If you deposit "+principal+",
-             \<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",
-             \<br\>in the year "+year+"\<br\>";
-        }
-        function updateRate() 
-    {   
-             var rateval = document.getElementById("rate").value;
-             document.getElementById("rate_val").innerText=rateval;
-    }        
-    </script>
+    <script type="text/javascript" src="/vfvk-Simple-Interest-Calculator/script.js"></script>       
     <link rel="stylesheet" href="style.css">
     </head>
     <div class="maindiv">
@@ -43,8 +26,7 @@
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-        </select> <br>
-        
+        </select> <br>       
         <button onclick="compute()">Compute Interest</button> <br>
         <span id="result">
         </span>
