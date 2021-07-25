@@ -5,8 +5,7 @@ function compute()
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
-document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
-}
+document.getElementById("result").innerHTML="If you deposit <b>" +principal+ ",</b> \<br\>at an interest rate of <b>"+rate+"% </b> \<br\>You will receive an amount of <b> "+interest+",</b> \<br\>in the year <b> "+year+" </b>\<br\>"}
 function updateRate() 
     {   
     var rateval = document.getElementById("rate").value;
