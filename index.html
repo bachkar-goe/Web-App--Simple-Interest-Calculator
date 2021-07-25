@@ -4,7 +4,13 @@
     <title>Simple Interest Calculator</title>
     <script type="text/javascript" src="script.js"></script>  
     <script>compute();</script>   
-    <script>updateRate();</script>       
+    <script>
+        function updateRate() 
+    {   
+    var rateval = document.getElementById("rate").value;
+    document.getElementById("rate_val").innerText=rateval;
+    }      
+    </script>       
     <script type="text/javascript" src="script.js"></script>       
     <link rel="stylesheet" href="style.css">
     </head>
