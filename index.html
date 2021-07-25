@@ -7,7 +7,7 @@
     <body>
     <h1>Simple Interest Calculator</h1>
               <script type="text/javascript">
- function compute()
+ function compute():
 {
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
@@ -18,7 +18,10 @@
     \<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",
         \<br\>in the year "+year+"\<br\>";
 }
-function updateRate() 
+              </script>
+              <script type="text/javascript">
+
+function updateRate(): 
     {   
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
