@@ -4,7 +4,11 @@
     <title>Simple Interest Calculator</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>  
-    <script>
+    </head>
+    <h1>Simple Interest Calculator</h1>
+    <div class="maindiv">
+      <h1>Simple Interest Calculator</h1>
+           <script>
         function compute()
     {
     var principal = document.getElementById("principal").value;
@@ -24,11 +28,7 @@
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
     } 
-    </script>
-    </head>
-    <h1>Simple Interest Calculator</h1>
-    <div class="maindiv">
-      <h1>Simple Interest Calculator</h1>
+    </script> 
       <form action="/action_page.php">
       <label for="principal">Amount:</label>
       <input type="number" id="principal" name="principal" min="0"><br><br>
