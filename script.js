@@ -5,11 +5,11 @@ function compute()
 	var principal = document.getElementById("principal").value;
   
   if (principal === "")
-     {alert('!! Empty Amount !! .. This have be a number');
+     {alert('!! Empty Amount !! .. This have to be a number');
 	document.getElementById("principal").focus();
   } else if (principal == 0)
 
-	{alert(' !! Zero Amount Number !! .. This have be greater than zero ');
+	{alert(' !! Zero Amount Number !! .. This have to be greater than zero ');
 	document.getElementById("principal").focus();
 
 } else if (principal < 0)
