@@ -1,19 +1,14 @@
-body {background-color:black;font-family:arial;color:white; text-align:center;}
-h1{color:grey;font-family:verdana;}
+body {background-color:black;font-family:arial;color:white;}
+#button-style {margin-top:5px; margin-bottom:5px; text-align:center}
 .maindiv {
     background-color:white;
     color:black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -70px;
-    margin-left: -160px;
-    width:300px;
+    width:350px;
     padding:20px;
     border-radius:25px;
-    text-align:center
+    margin:auto;
 }
-footer {background-color:black;font-family:arial;color:white; text-align:center;
-}
+h1{color:grey;font-family:verdana; text-align:center}
+
 
 
